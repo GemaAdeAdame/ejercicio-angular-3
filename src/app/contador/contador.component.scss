@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Skranji&display=swap");
+
+$color1: #dc9ef9;
+$color2: #bbfebb;
+$color3: #fdb5b5;
+$color4: #ff0000;
+$color5: #000;
+$color6: #fff;
+
+h1 {
+  font-family: Moo Lah Lah;
+  font-size: 100px;
+  text-align: center;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 8px;
+  align-content: center;
+
+  .container__circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: $color1;
+    border-radius: 50%;
+    text-align: center;
+    color: $color6;
+    font-size: 24px;
+  }
+}
+
+.container__button {
+  justify-content: space-between;
+  margin-top: 10px;
+  justify-content: space-between;
+  margin-top: 10px;
+  display: grid;
+  padding: 10px;
+
+  .button__style1 {
+    background-color: $color2;
+    color: $color5;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .button__style2 {
+    background-color: $color3;
+    color: $color5;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+}
+.error {
+  color: $color4;
+  font-size: 20px;
+}

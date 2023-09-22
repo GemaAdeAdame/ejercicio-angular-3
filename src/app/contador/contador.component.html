@@ -1,0 +1,11 @@
+<h1>Contador</h1>
+<div class="container">
+    <div class="container__circle">
+        <p>Cantidad actual: <br> {{ cantidad }}</p>
+    </div>
+    <div class="container__button">
+        <button class="button__style1" (click)="incrementarCantidad()">Incrementar</button>
+        <button class="button__style2" (click)="decrementarCantidad()">Decrementar</button>
+    </div>
+    <span class="error">{{ errorMensaje }}</span>    
+</div>
